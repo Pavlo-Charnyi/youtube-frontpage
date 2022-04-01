@@ -12,6 +12,7 @@ import AppVideo from './components/AppVideo.vue';
 .app__grid {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
-	gap: 20px;
+	column-gap: 15px;
+	row-gap: 60px;
 }
 </style>
