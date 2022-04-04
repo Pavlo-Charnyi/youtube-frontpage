@@ -8,7 +8,7 @@ import AppVideo from './components/AppVideo.vue';
 	</div>
 </template>
 
-<style>
+<style scoped>
 .app__grid {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
