@@ -12,16 +12,16 @@
 			<img src="https://picsum.photos/36/36" class="rounded-full" />
 
 			<div class="grow">
-				<h4 class="line-clamp-2 video_title">
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique,
-					voluptatem facere! Natus maiores perspiciatis reprehenderit
-					consectetur similique esse tempora ex architecto ducimus maxime
-					commodi rem id, distinctio itaque, nesciunt laudantium!
+				<h4 class="line-clamp-2 video__title">
+					Watch me developing own youtube application. Live and free of charge.
 				</h4>
 
 				<div class="text-sm text-gray-500">
-					<div>supeuser</div>
-					<div>10m . 2 days ago</div>
+					<div>Super User</div>
+					<div>
+						<span class="video__views_count">1.3 bilion views</span>
+						<span>2 days ago</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -29,12 +29,11 @@
 </template>
 
 <style scoped>
-.video_title {
-	font-size: 14px;
-}
 .video__title {
+	font-size: 14px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-weight: 500;
 }
 
 .video__time {
@@ -45,5 +44,9 @@
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+}
+.video__views_count::after {
+	content: '•';
+	margin: 0 2px;
 }
 </style>
