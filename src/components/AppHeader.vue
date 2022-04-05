@@ -1,18 +1,31 @@
 <script setup>
 import AppLogo from './AppLogo.vue';
 import SearchIcon from '../icons/SearchIcon.vue';
+import BellIcon from '../icons/BellIcon.vue';
+import GridIcon from '../icons/GridIcon.vue';
+import MenuIcon from '../icons/MenuIcon.vue';
+import VideoCameraIcon from '../icons/VideoCameraIcon.vue';
 </script>
 
 <template>
 	<header>
-		<AppLogo class="w-24" />
-		<form>
-			<input type="text" />
+		<div class="flex flex-row justify-between w-36 items-center">
+			<MenuIcon />
+			<AppLogo class="w-24" />
+		</div>
+
+		<form class="w-1/3 justify-between">
+			<input type="text" class="w-full" />
 			<button>
 				<SearchIcon />
 			</button>
 		</form>
-		<img src="https://picsum.photos/100/100" class="w-8 h-8 rounded-full" />
+		<div class="flex flex-row justify-between w-48 h-9 items-center">
+			<VideoCameraIcon />
+			<GridIcon />
+			<BellIcon />
+			<img src="https://picsum.photos/100/100" class="w-8 h-8 rounded-full" />
+		</div>
 	</header>
 </template>
 
@@ -30,6 +43,7 @@ header {
 
 form {
 	display: flex;
+
 	border: 1px solid #ccc;
 }
 
