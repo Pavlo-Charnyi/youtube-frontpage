@@ -9,7 +9,7 @@ import VideoCameraIcon from '../icons/VideoCameraIcon.vue';
 
 <template>
 	<header>
-		<div class="flex flex-row justify-between w-36 items-center">
+		<div class="flex gap-6 justify-between items-center">
 			<MenuIcon />
 			<AppLogo class="w-24" />
 		</div>
@@ -20,7 +20,7 @@ import VideoCameraIcon from '../icons/VideoCameraIcon.vue';
 				<SearchIcon />
 			</button>
 		</form>
-		<div class="flex flex-row justify-between w-48 h-9 items-center">
+		<div class="flex gap-7 h-9 justify-between items-center">
 			<VideoCameraIcon />
 			<GridIcon />
 			<BellIcon />
