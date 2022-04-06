@@ -5,16 +5,37 @@ import AppBadge from './components/AppBadge.vue';
 </script>
 
 <template>
-	<AppHeader />
-	<div>
-		<div class="badge__container">
-			<AppBadge v-for="i in 20"> Comedies {{ i }}</AppBadge>
+	<div class="page_content">
+		<AppHeader />
+		<div class="main__content">
+			<aside class="p-4 bg-yellow-100">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+				</ul>
+			</aside>
+			<div class="main_content">
+				<div>
+					<div class="badge__container">
+						<AppBadge v-for="i in 20"> Comedies {{ i }}</AppBadge>
+					</div>
+					<AppGrid />
+				</div>
+			</div>
 		</div>
-		<AppGrid />
 	</div>
 </template>
 
 <style scoped>
+.page_content {
+}
+.main__content {
+	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+}
 .badge__container {
 	display: flex;
 	gap: 14px;

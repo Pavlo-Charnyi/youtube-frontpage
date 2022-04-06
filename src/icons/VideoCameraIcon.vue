@@ -1,16 +1,15 @@
 <template>
 	<svg
-		xmlns="http://www.w3.org/2000/svg"
-		class="h-6 w-6"
-		fill="none"
 		viewBox="0 0 24 24"
-		stroke="currentColor"
-		stroke-width="2"
+		preserveAspectRatio="xMidYMid meet"
+		focusable="false"
+		class="style-scope yt-icon"
 	>
-		<path
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
-		/>
+		<g class="style-scope yt-icon">
+			<path
+				d="M14,13h-3v3H9v-3H6v-2h3V8h2v3h3V13z M17,6H3v12h14v-6.39l4,1.83V8.56l-4,1.83V6 M18,5v3.83L22,7v8l-4-1.83V19H2V5H18L18,5 z"
+				class="style-scope yt-icon"
+			></path>
+		</g>
 	</svg>
 </template>

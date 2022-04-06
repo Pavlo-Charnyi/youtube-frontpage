@@ -19,7 +19,7 @@
 				<div class="text-sm text-gray-500">
 					<div>Super User</div>
 					<div>
-						<span class="video__views_count">1.3 bilion views</span>
+						<span class="video__views_count">1.3 billion views</span>
 						<span>2 days ago</span>
 					</div>
 				</div>
