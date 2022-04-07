@@ -4,5 +4,6 @@
 	"[javascript][javascriptreact][json][jsonc][html][typescript][vue][typescriptreact][css]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true
-	}
+	},
+	"editor.fontSize": 16
 }
