@@ -2,6 +2,7 @@
 import AppMenuItem from './AppMenuItem.vue';
 import VideoCameraIcon from '../icons/VideoCameraIcon.vue';
 import BellIcon from '../icons/BellIcon.vue';
+import LibraryIcon from '../icons/LibraryIcon.vue';
 </script>
 
 <template>
@@ -22,7 +23,11 @@ import BellIcon from '../icons/BellIcon.vue';
 
 		<div class="menu__block">
 			<h3>Subscriptions</h3>
-			<AppMenuItem title="Library" />
+			<AppMenuItem title="Library">
+				<template #icon>
+					<LibraryIcon class="w-6 h-6" />
+				</template>
+			</AppMenuItem>
 			<AppMenuItem title="History" />
 			<AppMenuItem title="Your Videos" />
 			<AppMenuItem title="Watch Later" />
