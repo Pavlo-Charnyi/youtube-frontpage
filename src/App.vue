@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppGrid from './components/AppGrid.vue';
 import AppBadge from './components/AppBadge.vue';
+import AppSidebar from './components/AppSidebar.vue';
 </script>
 
 <template>
