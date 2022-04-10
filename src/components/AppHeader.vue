@@ -5,7 +5,6 @@ import BellIcon from '../icons/BellIcon.vue';
 import GridIcon from '../icons/GridIcon.vue';
 import MenuIcon from '../icons/MenuIcon.vue';
 import VideoCameraIcon from '../icons/VideoCameraIcon.vue';
-import TestIcon from '../icons/TestIcon.vue';
 </script>
 
 <template>
