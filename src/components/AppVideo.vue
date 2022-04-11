@@ -1,8 +1,18 @@
+<script setup>
+defineProps({
+	title: String,
+	img: String,
+	author: String,
+	views: String,
+	publish_date: String,
+});
+</script>
+
 <template>
 	<div>
 		<div class="relative">
 			<img
-				src="https://picsum.photos/1080/1920"
+				src="https://picsum.photos/1920/1080"
 				class="object-cover aspect-video"
 			/>
 			<span class="video__time">14:10</span>
@@ -13,14 +23,14 @@
 
 			<div class="grow">
 				<h4 class="line-clamp-2 video__title">
-					Watch me developing own youtube application. Live and free of charge.
+					{{ title }}
 				</h4>
 
 				<div class="text-sm text-gray-500">
-					<div>Super User</div>
+					<div>{{ author }}</div>
 					<div>
-						<span class="video__views_count">1.3 billion views</span>
-						<span>2 days ago</span>
+						<span class="video__views_count">{{ views }}</span>
+						<span>{{ publish_date }}</span>
 					</div>
 				</div>
 			</div>

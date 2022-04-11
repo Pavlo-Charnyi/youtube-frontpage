@@ -1,8 +1,10 @@
 <script setup>
 import AppMenuItem from './AppMenuItem.vue';
-import VideoCameraIcon from '../icons/VideoCameraIcon.vue';
-import BellIcon from '../icons/BellIcon.vue';
 import LibraryIcon from '../icons/LibraryIcon.vue';
+import HomeIcon from '../icons/HomeIcon.vue';
+import ExploreIcon from '../icons/ExploreIcon.vue';
+import ShortsIcon from '../icons/ShortsIcon.vue';
+import SubscriptionsIcon from '../icons/SubscriptionsIcon.vue';
 </script>
 
 <template>
@@ -10,13 +12,23 @@ import LibraryIcon from '../icons/LibraryIcon.vue';
 		<div class="menu__block">
 			<AppMenuItem title="Home">
 				<template #icon>
-					<BellIcon class="w-6 h-6" />
+					<HomeIcon class="w-6 h-6" />
 				</template>
 			</AppMenuItem>
 
 			<AppMenuItem title="Explore">
 				<template #icon>
-					<VideoCameraIcon class="w-6 h-6" />
+					<ExploreIcon class="w-6 h-6" />
+				</template>
+			</AppMenuItem>
+			<AppMenuItem title="Shorts">
+				<template #icon>
+					<ShortsIcon class="w-6 h-6" />
+				</template>
+			</AppMenuItem>
+			<AppMenuItem title="Subscriptions">
+				<template #icon>
+					<SubscriptionsIcon class="w-6 h-6" />
 				</template>
 			</AppMenuItem>
 		</div>

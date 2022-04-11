@@ -4,16 +4,64 @@ import AppVideo from './AppVideo.vue';
 
 <template>
 	<div
-		class="p-4 grid gap-5 grid-cols-1 sm:grid-cols2 md:grid-cols3 lg:grid-cols-4"
+		class="p-4 grid gap-5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 bg-gray-50"
 	>
-		<AppVideo title="My video 1" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 2" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 3" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 3" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 3" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 4" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 5" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 6" img="https://picsum.photos/1920/1080" />
-		<AppVideo title="My video 7" img="https://picsum.photos/1920/1080" />
+		<AppVideo
+			title="Frontend developer roadmap: all you need to know about FE"
+			img="https://picsum.photos/1920/1080"
+			author="Pavlo"
+			views="1.3 Billion"
+			publish_date="week ago"
+		/>
+
+		<AppVideo
+			title="Master VUE in 30 days: use best modern practices"
+			img="https://picsum.photos/1920/1080"
+			author="Andrew"
+			views="20 Million"
+			publish_date="2 weeks ago"
+		/>
+		<AppVideo
+			title="Frontend developer roadmap"
+			img="https://picsum.photos/1920/1080"
+			author="Pavlo"
+			views="1.3 Million"
+			publish_date="week ago"
+		/>
+		<AppVideo
+			title="Frontend developer roadmap"
+			img="https://picsum.photos/1920/1080"
+			author=""
+			views="1.3 Billion"
+			publish_date="week ago"
+		/>
+		<AppVideo
+			title="Frontend developer roadmap"
+			img="https://picsum.photos/1920/1080"
+			author="Pavlo"
+			views="1.3 Billion"
+			publish_date="week ago"
+		/>
+		<AppVideo
+			title="Frontend developer roadmap"
+			img="https://picsum.photos/1920/1080"
+			author="Pavlo"
+			views="1.3 Billion"
+			publish_date="week ago"
+		/>
+		<AppVideo
+			title="Frontend developer roadmap"
+			img="https://picsum.photos/1920/1080"
+			author="Pavlo"
+			views="1.3 Billion"
+			publish_date="week ago"
+		/>
+		<AppVideo
+			title="Frontend developer roadmap"
+			img="https://picsum.photos/1920/1080"
+			author="Pavlo"
+			views="1.3 Billion"
+			publish_date="week ago"
+		/>
 	</div>
 </template>
