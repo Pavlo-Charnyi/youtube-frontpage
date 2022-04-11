@@ -1,7 +1,6 @@
 <script setup>
 defineProps({
 	title: String,
-	img: String,
 	author: String,
 	views: String,
 	publish_date: String,
@@ -11,10 +10,13 @@ defineProps({
 <template>
 	<div>
 		<div class="relative">
-			<img
-				src="https://picsum.photos/1920/1080"
-				class="object-cover aspect-video"
-			/>
+			<slot name="video_image">
+				<img
+					src="https://picsum.photos/1920/1080"
+					class="object-cover aspect-video"
+				/>
+			</slot>
+
 			<span class="video__time">14:10</span>
 		</div>
 
