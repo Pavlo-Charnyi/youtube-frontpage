@@ -4,6 +4,8 @@ defineProps({
 	author: String,
 	views: String,
 	publish_date: String,
+	avatar: String,
+	video_image_url: String,
 });
 </script>
 
@@ -11,17 +13,14 @@ defineProps({
 	<div>
 		<div class="relative">
 			<slot name="video_image">
-				<img
-					src="https://picsum.photos/1920/1080"
-					class="object-cover aspect-video"
-				/>
+				<img :src="video_image_url" class="object-cover aspect-video" />
 			</slot>
 
 			<span class="video__time">14:10</span>
 		</div>
 
 		<div class="flex gap-3 items-start mt-2">
-			<img src="https://picsum.photos/36/36" class="rounded-full" />
+			<img :src="avatar" class="rounded-full" />
 
 			<div class="grow">
 				<h4 class="line-clamp-2 video__title">
